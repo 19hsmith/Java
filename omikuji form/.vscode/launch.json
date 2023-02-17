@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-OmikujiFormApplication<omikuji_form>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.harry.omikuji_form.OmikujiFormApplication",
+            "projectName": "omikuji_form",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

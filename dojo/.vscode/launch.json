@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DojoApplication<dojo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.harry.dojo.DojoApplication",
+            "projectName": "dojo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

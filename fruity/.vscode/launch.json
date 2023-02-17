@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-FruityApplication<fruity>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.harry.fruity.FruityApplication",
+            "projectName": "fruity",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
