@@ -1,4 +1,4 @@
-package com.harry.login.controllers;
+package com.harry.bookclub.controllers;
 
 
 
@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.harry.login.models.LoginUser;
-import com.harry.login.models.User;
-import com.harry.login.services.UserService;
+import com.harry.bookclub.models.LoginUser;
+import com.harry.bookclub.models.User;
+import com.harry.bookclub.services.UserService;
 
 
 @Controller
@@ -57,7 +57,7 @@ public class MainController {
         session.setAttribute("userName", user.getUserName()); 
         // in other words, log them in.
     
-        return "redirect:/welcome";
+        return "redirect:/books";
     }
     
     @PostMapping("/login")
@@ -78,7 +78,7 @@ public class MainController {
         session.setAttribute("userName", user.getUserName());
         // in other words, log them in.
     
-        return "redirect:/welcome";
+        return "redirect:/books";
     }
 
     @GetMapping("/welcome")
@@ -98,3 +98,4 @@ public class MainController {
     }
     
 }
+

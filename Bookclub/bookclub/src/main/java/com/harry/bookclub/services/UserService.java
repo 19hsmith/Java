@@ -1,4 +1,4 @@
-package com.harry.login.services;
+package com.harry.bookclub.services;
 
 import java.util.Optional;
     
@@ -7,9 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.validation.BindingResult;
     
-import com.harry.login.models.LoginUser;
-import com.harry.login.models.User;
-import com.harry.login.repositories.UserRepository;
+import com.harry.bookclub.models.LoginUser;
+import com.harry.bookclub.models.User;
+import com.harry.bookclub.repositories.UserRepository;
     
 @Service
 public class UserService {
